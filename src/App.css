@@ -1,0 +1,86 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #f5e0ef, #4f2a04);
+  color: #000;
+  /* margin-bottom: 20px; */
+}
+
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(96, 49, 3);
+}
+
+.navitems button {
+  width: 25%;
+  height: 10vh;
+  border: 3px solid rgb(242, 215, 215);
+  border-radius: 30px;
+  background-color: #e67d0e;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: auto 0px;
+  margin-top: 30px;
+
+}
+
+.fetchbtn:hover {
+  background-color: #fff;
+}
+
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #f4fef7, #3c1e02);
+}
+
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+
+.name:hover {
+  color: red;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 5%;
+  background-image: radial-gradient(#032838, #9ee6f0);
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #3c1e02;
+  font-weight: bold;
+  font-size: 35px;
+}
